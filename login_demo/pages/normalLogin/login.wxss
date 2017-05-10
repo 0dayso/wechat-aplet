@@ -1,0 +1,67 @@
+/* pages/index/login.wxss */
+.form-group {
+    padding: 0 22px;
+    font-size: 16px;
+    color: #0090ff;
+    text-align: center;
+    margin: 32px 0 42px;
+    height: 244px;
+}
+.login-agreement {
+      font-size: 14px;
+    line-height: 21px;
+    color: #999;
+    text-align: left;
+    padding: 21px 0 14px;
+      font-family: "PingFang SC Regular", "Helvetica", "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, "sans-serif";
+
+}
+.login-agreement .agreement {
+    color: #0090ff;
+}
+.txt-group {
+    display: block;
+      font-family: "PingFang SC Regular", "Helvetica", "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, "sans-serif";
+
+}
+.input-ui {
+   
+    height: 50px;
+    font-size: 16px;
+    border-style: none;
+    border: 1px solid #e5e5e5;
+    color: #000;
+    text-align: left;
+    padding-left: 14px;
+    font-family: "PingFang SC Regular", "Helvetica", "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, "sans-serif";
+
+}
+.input-topBd{
+  border-top: none;
+}
+.button{
+  color: #fff;
+  border-radius: .08rem;
+  background-color: #0090ff;
+  margin:0 auto;
+    font-family: "PingFang SC Regular", "Helvetica", "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, "sans-serif";
+
+}
+.other-button-hover {
+  background-color:#007cdb;
+}
+.txt-group {
+    font-size: 14px;
+    padding: 15px 0 10px;
+    color: #0090ff;
+    text-align: center;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.block{
+  display: block
+}

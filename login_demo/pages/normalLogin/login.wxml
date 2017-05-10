@@ -1,0 +1,9 @@
+
+<view class="form-group">
+  <input class="input-ui" placeholder="手机号 / 邮箱"  maxlength="32" />
+  <input class="input-ui input-topBd" placeholder="密碼"  maxlength="10"/>
+  <view class="login-agreement">登录即同意<a  class="agreement" href="">《服务与隐私协议》</a></view>
+  <button class="button" hover-class="other-button-hover" id="j-freeLogin" bindtap="submitLogin"> 登录 </button>
+  <a  href="" class="txt-group pull-left">登录遇到问题?</a>
+  <a href="" class="txt-group pull-right block">短信验证登录</a>
+</view>

@@ -1,0 +1,106 @@
+/**index.wxss**/
+.form-group {
+    padding: 0 22px;
+    font-size: 16px;
+    color: #0090ff;
+    text-align: center;
+    margin: 32px 0 42px;
+    height: 244px;
+}
+.icon-wapper {
+    font-size: 0;
+    margin: auto;
+    padding: 40px 0 32px;
+}
+.sim-icon {
+    width: 57px;
+    height:80px;
+    vertical-align: middle;
+}
+.group-icon {
+    width: 30px;
+    height: 12px;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+.icon-box {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background: #f9f9f9;
+    border: 1px solid #efefef;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+}
+.login-icon {
+    width: 80px;
+    height: 80px;
+    border-radius:15px;
+}
+.login-title {
+    font-size: 22px;
+    padding-bottom: 8px;
+    color: #000;
+    text-align: center;
+      font-family: "PingFang SC Regular", "Helvetica", "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, "sans-serif";
+
+}
+.login-agreement {
+    font-size: 14px;
+    line-height: 21px;
+    color: #999;
+    text-align: left;
+    padding-bottom: 20px;
+      font-family: "PingFang SC Regular", "Helvetica", "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, "sans-serif";
+
+}
+.login-agreement .agreement {
+    color: #0090ff;
+}
+.txt-group {
+    padding: 0;
+    display: block;
+    width: 150px;
+    margin: 20px auto 0;
+      font-family: "PingFang SC Regular", "Helvetica", "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, "sans-serif";
+
+}
+.button{
+  color: #fff;
+  border-radius: .08rem;
+  background-color: #0090ff;
+  margin:0 auto;
+  font-family: "PingFang SC Regular", "Helvetica", "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, "sans-serif";
+
+}
+.other-button-hover {
+  background-color:#007cdb;
+}
+
+.login-tab {
+    position: absolute;
+    bottom: 1.3rem;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+        color: #0090ff;
+  font-family: "PingFang SC Regular", "Helvetica", "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, "sans-serif";
+
+}
+.login-tab a {
+    vertical-align: top;
+    padding: .3rem;
+    color: #0090ff;
+}
+
+.ui-input {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    border-style: none;
+    padding: 6px 14px;
+    border: 1px solid #e5e5e5;
+    color: #000;
+}

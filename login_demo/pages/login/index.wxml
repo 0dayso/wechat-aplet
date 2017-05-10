@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="form-group">
+    <view class="icon-wapper">
+        <image alt="sim卡图标" class="sim-icon"
+        src="http://static.e.189.cn/open/login/images/wap/v4.1/simIcon/sim.png"></image>
+        <image alt="group" class="group-icon" src="http://static.e.189.cn/open/login/images/wap/v4.1/simIcon/group.png"></image>
+        <view class="icon-box">
+            <image class="login-icon" alt="应用图标" src="http://static.e.189.cn/open/login/images/wap/v4.1/topIcon/logo_189.png"></image>
+        </view> 
+    </view>
+    <view id="j-login-title" class="login-title">使用本机号码免密登录</view>
+    <view class="login-agreement">登录即同意
+        <a id="j-agreement-autoLogin" class="agreement" href="">《服务与隐私协议》</a>，并授权仅供测试获取本机手机号码
+    </view>
+    <button class="button" hover-class="other-button-hover" id="j-freeLogin" bindtap="OnSubmit"> 免密登录 </button>
+    <a id="j-free-autoLogin" href="https://e.189.cn/sdk/agreement/free.do " class="txt-group j_free_login">什么是免密登录?</a>
+</view>    
+<view class="login-tab">
+    <a >登录遇到问题?</a>丨
+    <a  bindtap="linkToNormalLogin">账号密码登录</a>
+</view>
