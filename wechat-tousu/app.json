@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/indexscene/index/index",
+    "pages/toususcene/ischooseagreen/ischooseagreen",
+    "pages/tuijianscene/tuijian/tuijian",
+    "pages/myscene/my/my",
+    "pages/myscene/changenickname/changenickname",
+    "pages/myscene/changephonenum/changephonenum",
+    "pages/toususcene/tousu/tousu",
+    "pages/tuijianscene/detail/detail",
+    "pages/tuijianscene/themes/themes"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white",
+    "backgroundTextStyle":"dark"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/indexscene/index/index",
+      "iconPath": "static/tabbar/home.png",
+      "selectedIconPath": "static/tabbar/homeHL.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/toususcene/ischooseagreen/ischooseagreen",
+      "iconPath": "static/tabbar/tousu.png",
+      "selectedIconPath": "static/tabbar/tousuHL.png",
+      "text": "投诉"
+    }, {
+      "pagePath": "pages/tuijianscene/tuijian/tuijian",
+      "iconPath": "static/tabbar/push.png",
+      "selectedIconPath": "static/tabbar/pushHL.png",
+      "text": "推荐"
+    }, {
+      "pagePath": "pages/myscene/my/my",
+      "iconPath": "static/tabbar/my.png",
+      "selectedIconPath": "static/tabbar/myHL.png",
+      "text": "我的"
+    }]
+  }
+}

@@ -1,0 +1,10 @@
+<view class="jts-container">
+    <toast hidden="{{toastHidden}}" icon="warn" bindchange="toastChange">
+        输入的昵称不能为空
+    </toast>
+    <view class="jts-content">
+        <input bindinput="bindKeyInputFunc" type="text" auto-focus placeholder="请输出你想修改的昵称" value="{{nickName}}" />
+        <text>在他人投诉帖下评论时，显示昵称</text>
+    </view>
+    <button bindtap="changeFunc" size="default" disabled="{{disabled}}" class="change-btn" hover-class="change-button-hover">修改</button>
+</view>

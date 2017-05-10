@@ -1,0 +1,80 @@
+.basicinfo{
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .05);
+}
+.basicinfo-head{
+    position: relative;
+    height: 65px;
+    background-color: #FFFFFF;
+    padding-left: 12px;
+    line-height: 65px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+}
+.basicinfo-head image{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+.jts-container .rightSub{
+    position: absolute;
+    right: 28px;
+    text-align: right;
+    color: #ACACAC;
+    font-size: 17px
+}
+.jts-container .gonextImg{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    width: 10px;
+    height: 15px;
+}
+.basicinfo-nick{
+    position: relative;
+    height: 44px;
+    margin-top: 1px;
+    background-color: #FFFFFF;
+    padding-left: 12px;
+    line-height: 44px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+}
+.basicinfo-phone{
+    position: relative;
+    height: 44px;
+    margin-top: 1px;
+    background-color: #FFFFFF;
+    padding-left: 12px;
+    line-height: 44px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .05);
+}
+.requireinfo{
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .05);
+    margin-bottom: 40px;
+}
+.requireinfo-manage{
+    position: relative;
+    height: 44px;
+    background-color: #FFFFFF;
+    padding-left: 12px;
+    line-height: 44px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .05);
+}
+
+.loginout-btn{
+    margin: 12px;
+    background-color: #f9972b;
+    color: #ffffff;
+    font-size: 16px;
+}
+.loginout-button-hover {
+    opacity: 0.7;
+}

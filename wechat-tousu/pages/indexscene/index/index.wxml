@@ -1,0 +1,16 @@
+<!-- 首页专题列表 -->
+<view class="themes-list">
+    <navigator wx:for="{{indexList}}">
+        <view class="themes-list-box">
+            <view class="themes-list-thumbnail">
+                <image class="themes-list-img" src="{{item.thumbnail}}" />
+            </view>
+            <view class="themes-list-main">
+                <view class="themes-list-name">{{item.name}}</view>
+                <view class="themes-list-description">{{item.description}}</view>
+            </view>
+        </view>
+    </navigator>
+    <button bindtap="loadMoreFunc" hidden="{{isLoadMore}}" type="default" size="default">加载更多</button>
+
+</view>

@@ -1,0 +1,39 @@
+<view class="jts-container">
+    <modal title="退出" confirm-text="确定" cancel-text="取消" hidden="{{loginoutModalHidden}}" mask bindconfirm="loginoutModalChange" bindcancel="loginoutModalChange">
+        确定退出登录？
+    </modal>
+
+    <text style="color: #AAAAAA;font-size: 16px;padding: 12px;line-height: 40px">基本资料</text>
+    <view class="basicinfo">
+        <view class="basicinfo-head">
+            <text style="font-size: 18px">头像</text>
+            <image bindtap="chooseHeadImgFunc" src="{{userInfoModel.avatarUrl}}"></image>
+        </view>
+        <navigator url="../changenickname/changenickname?nickName={{userInfoModel.nickName}}">
+            <view class="basicinfo-nick">
+                <text style="font-size: 18px">昵称</text>
+                <text class="rightSub">{{userInfoModel.nickName}}</text>
+                <image class="gonextImg" src="http://ts.21cn.com/static/img/wap/personInfo/gonextImg.png"></image>
+            </view>
+        </navigator>
+
+        <navigator bindtap="changePhoneNumFunc">
+            <view class="basicinfo-phone">
+                <text style="font-size: 18px">手机</text>
+                <text class="rightSub">{{userInfoModel.phoneNum}}</text>
+                <image class="gonextImg" src="http://ts.21cn.com/static/img/wap/personInfo/gonextImg.png"></image>
+            </view>
+        </navigator>
+    </view>
+    <text style="color: #AAAAAA;font-size: 16px;padding: 12px;line-height: 40px">投诉必填</text>
+    <view class="requireinfo">
+        <navigator>
+            <view class="requireinfo-manage">
+                <text style="font-size: 18px">管理投诉人</text>
+                <image class="gonextImg" src="http://ts.21cn.com/static/img/wap/personInfo/gonextImg.png"></image>
+            </view>
+        </navigator>
+    </view>
+
+    <button bindtap="loginoutFunc" size="default" class="loginout-btn" hover-class="loginout-button-hover">退出登录</button>
+</view>

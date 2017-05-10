@@ -1,0 +1,9 @@
+<view class="jts-container">
+    <toast hidden="{{toastHidden}}" icon="warn" bindchange="toastChange">
+        请输入正确格式的手机号码
+    </toast>
+    <view class="jts-content">
+        <input bindinput="bindKeyInputFunc" type="text" auto-focus placeholder="请输出你想修改的手机号码" value="{{phoneNum}}" />
+    </view>
+    <button bindtap="changeFunc" size="default" disabled="{{disabled}}" class="change-btn" hover-class="change-button-hover">修改</button>
+</view>
