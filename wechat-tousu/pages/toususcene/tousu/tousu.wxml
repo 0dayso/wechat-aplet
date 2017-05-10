@@ -1,0 +1,50 @@
+<view class="jts-container">
+    <view class="jts-complaintant J_complaintant">
+        <text class="gray">投诉人:</text>
+        <text class="J_gocomplaintant comp_name" id="comp_name" data-id="0">舒先生</text>
+        <text class="comp_phone" id="comp_phone">18688901204</text>(仅供被投诉方联系)
+        <image class="gonextImg" style="top: 6px;" src="http://ts.21cn.com/static/img/wap/personInfo/gonextImg.png"></image>
+    </view>
+    <form bindsubmit="formSubmit">
+        <view class="jts-content">
+            <input type="text" class="J_tsobject" placeholder="投诉对象   你要投诉谁？" />
+            <view class="cooperative-businesses">
+                    <image class="businessesimg" src="http://img013.21cnimg.com/photo/2016/0830/19/f68a27a8e7eb612b885e3416_o.png" style="left: 0px;"></image>
+                    <image class="businessesimg" src="http://img012.21cnimg.com/photo/2016/0830/19/e218abb2cdd2fba82be7ef0d_o.png" style="left: -16px;"></image>
+                    <image class="businessesimg" src="http://img013.21cnimg.com/photo/2016/0830/19/87bd0b1c54359073b36d5cb6_o.png" style="left: -32px;"></image>
+                    <image class="businessesimg" src="http://img011.21cnimg.com/photo/2016/0830/19/189f622eaf74842d0bc00fca_o.png" style="left: -48px;"></image>
+                    <image class="businessesimg" src="http://ts.21cn.com/upfile/39eca2be51abd7bf0c7dc49d771826da.png" style="left: -64px;"></image>
+                    <image class="businessesimg" src="http://img013.21cnimg.com/photo/2016/0830/19/ffba39bd1c40d8be8793a686_o.png" style="left: -80px;"></image>
+                    <image class="businessesimg" src="http://img013.21cnimg.com/photo/2016/0830/19/6cc8a8ab570dc6dc1440e533_o.png" style="left: -96px;"></image>
+                    <image class="businessesimg" src="http://img013.21cnimg.com/photo/2016/0830/19/5bf97afd5f1e08ffdd5892cd_o.png" style="left: -112px;"></image>
+                    <text style="position: absolute;top: 10px;right: 0px;padding: 8px;">13个承诺7天解决投诉的商家</text>
+            </view>
+            <input class="J_payprice" id="payprice" type="text" placeholder="索赔金额" />
+            <input class="J_titlepost" id="title" type="text" placeholder="标题   说明投诉的核心问题，可含投诉对象与诉求" />
+            <input class="J_descriplepost" id="htmltopic" placeholder="标题详情   具体说明投诉的事由" />
+
+            <view class="images-wrapper">
+            <text class="images-text">请选择图片</text>
+            <view class="images-list">
+                <block wx:for-items="{{imageList}}" wx:for-item="image">
+                <image src="{{image}}" class="images-image" data-src="{{image}}" bindtap="previewImage"></image>
+                </block>
+                <image src="../../../static/plus.png" class="images-image images-image-plus" bindtap="uploadImgFunc"></image>
+            </view>
+            </view>
+        </view>
+        <!--<view class="jts-content">
+            <text class="decodephone_box">隐私提交区(仅我、聚投诉、被投诉方可见)</text>
+            <input class="J_accountrel" id="accountrel" type="text" placeholder="涉诉帐号／订单号／银行卡号等" />
+            <input class="J_secretinfor" id="secretinfor" type="text" placeholder="请填写你不想公开的内容" />
+        </view>
+
+        <view class="jts-isagree">
+            <checkbox-group name="checkbox">
+                <label><checkbox value="checkbox1"/>本人信息可给其他媒体联系采访</label>
+            </checkbox-group>
+        </view>-->
+
+        <button formType="submit" size="default" class="public-btn" hover-class="public-button-hover">发布</button>
+    </form>
+</view>

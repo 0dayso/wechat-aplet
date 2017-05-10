@@ -1,0 +1,29 @@
+<view class="jts-container">
+    <view class="jts-content">
+        <text class="title">《聚投诉平台投诉发布规则》</text>
+        <view class="content">
+            <view class="content-title">一、21CN聚投诉平台是公益性的网络媒体投诉服务平台，我们会跟进处理每一则投诉，并为其他网友提供借鉴。为此，您发布投诉帖时，请务必留意：</view>
+            <view class="content-des">
+                <view>1、依法、据实。不得捏造事实、诽谤他人、泄露他人隐私。同时也注意保护自己的隐私。</view>
+                <view>2、谢绝以删帖作交易换取投诉解决。即便投诉解决后，您也不要找我们删帖。</view>
+                <view>3、请填写真实的联系方式，尤其是电话和电子信箱。发帖通过审核时，或者后续有重要的回复时，系统将自动发送邮件通知您来查看。</view>
+                <view>4、为便于被投诉方回应，请提供准确的被投诉方名称、地址、订单号、账号等信息。</view>
+                <view>5、发帖时可以提交图片、视频，作为最直观的投诉证据。</view>
+                <view>6、新浪微博是我们处理投诉很重要的一个渠道。请在投诉正文最后提供您的新浪微博账号（昵称），以便一起与相关各方沟通。</view>
+                <view>7、请勿重复发帖。后续相关信息（包括图片），您只需使用原账号在原帖评论框提交，即可继续显示在投诉正文区域。</view>
+            </view>
+            <view class="content-title">二、投诉发布并经审核通过后，您可以在投诉页面上使用多个实用的功能。借此，您甚至可以自助推动投诉的解决：</view>
+            <view class="content-des">
+                <view>1、查看相关投诉专题。如有，投诉标题上方会显示“此问题已有集体投诉”。点击进去，有您关心的诸多信息，尤其是已解决的投诉、相关投诉人的QQ群、被投诉方过往的回应、聚投诉提供的维权建议，等等。</view>
+                <view>2、长微博分享。点击投诉正文下的“发送长微博”，将您的投诉全文以长微博形式发布到您的微博和QQ空间里，发微博时请务必@给你需要告知的账号，尤其是被投诉方官方微博。</view>
+                <view>3、邀请朋友支持。请您的朋友帮你点击投诉标题下的“支持”，让您的投诉帖右栏出现众多的支持者账号头像，并使您的投诉进入聚投诉首页的“网友支持最多的投诉”排行榜。</view>
+            </view>
+        </view>
+        <!--<view class="isagreebtns">
+            <button bindtap="agreenfunc" class="left-btn" hover-class="left-button-hover">同意</button>
+            <button bindtap="disagreenfunc" class="right-btn">不同意</button>
+        </view>-->
+        <button bindtap="nextStepFunc" size="default" class="next-btn" hover-class="next-button-hover">下一步</button>
+
+    </view>
+</view>
