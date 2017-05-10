@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/weather/weather"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleText": "WeChat",
+    "backgroundTextStyle":"white"
+  }
+}
